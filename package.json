@@ -1,5 +1,5 @@
 {
-  "name": "gulp-inno",
+  "name": "@aabuhijleh/gulp-inno",
   "version": "0.4.0",
   "description": "Compile Inno Setup scripts using Gulp",
   "main": "index.js",
@@ -8,12 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dustinblackman/gulp-inno.git"
+    "url": "git+ssh://git@github.com/aabuhijleh/gulp-inno.git"
   },
   "author": "Dustin Blackman",
   "license": "MIT",
   "dependencies": {
     "event-stream": "3.3.1",
     "gulp-util": "^3.0.8"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/aabuhijleh/gulp-inno/issues"
+  },
+  "homepage": "https://github.com/aabuhijleh/gulp-inno#readme",
+  "keywords": [
+    "gulp",
+    "inno",
+    "setup"
+  ]
 }
