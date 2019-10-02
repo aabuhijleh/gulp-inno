@@ -5,7 +5,7 @@ Compile a windows installer using Inno Setup Compiler and Gulp. Inno Setup Versi
 ### Install:
 
 ```bash
-npm install --save-dev gulp-inno
+npm install --save-dev @aabuhijleh/gulp-inno
 ```
 
 ### Example:
