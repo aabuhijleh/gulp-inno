@@ -364,3 +364,6 @@
 #endif
 ; END ISPPBUILTINS.ISS
 
+
+; Inno Download Plugin include path
+#pragma include __INCLUDE__ + ";" + ReadReg(HKLM, "Software\Mitrich Software\Inno Download Plugin", "InstallDir")

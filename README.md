@@ -14,7 +14,7 @@ Pass your inno script in gulp src and pipe it to Inno.
 
 ```javascript
 var gulp = require("gulp");
-var inno = require("gulp-inno");
+var inno = require("@aabuhijleh/gulp-inno");
 gulp.src("./installer_script.iss").pipe(
   inno({
     args: ["arg1", "args2", "arg3"],
